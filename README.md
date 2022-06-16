@@ -11,6 +11,11 @@
 3. Deploy with your whitlists `npx hardhat run scripts/deploy.js --network rinkeby`
 4. Verify this contract `npx hardhat verify --constructor-args arguments.js --network rinkeby "0x5dBD1d3C5179Fb34a917a3FBA1E7cfA9f45F71f1"`
 
+[Result]
+
+Mocktoken: https://rinkeby.etherscan.io/address/0xbDde9b61Dc4Edd5A39b9A6c71Bf6277f10f8aa09#code
+Claim: https://rinkeby.etherscan.io/address/0x5dBD1d3C5179Fb34a917a3FBA1E7cfA9f45F71f1#code
+
 # Analyze Gas Optimizationa and Test
 
 You can get the test result here, ./coverage/index.html (`npx hardhat coverage`)
